@@ -1121,14 +1121,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/hoist-non-react-statics@^3.3.1":
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
-  integrity sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
-  dependencies:
-    "@types/react" "*"
-    hoist-non-react-statics "^3.3.0"
-
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0", "@types/istanbul-lib-coverage@^2.0.1":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.4.tgz#8467d4b3c087805d63580480890791277ce35c44"
@@ -1782,11 +1774,6 @@ core-js-pure@^3.20.2:
   version "3.23.0"
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.23.0.tgz#f27426a6144a37484cfc5fd8b56eecc5180cd393"
   integrity sha512-ksjJc/xVTQzT2q6trPja2qWynMEaGO36rDui2SiqLPYab9TmPgT8nIVcre/yscviPCSweUdCDGKe4MsQA9w1zQ==
-
-core-js@^3:
-  version "3.23.0"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.23.0.tgz#9e33448c8fd3b02ad023d85bd6e85da6335b5cc4"
-  integrity sha512-v2/hZoRcRrvQiBoGsHwmRdr+S4oICKcjA6xb2qjVurin6TpcDC1X2CIDa8rdu/d5n8RT/Sdoos2IlnpQ1rXs5A==
 
 create-require@^1.1.0:
   version "1.1.1"
@@ -2644,13 +2631,6 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
-hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
-  integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
-  dependencies:
-    react-is "^16.7.0"
-
 html-escaper@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/html-escaper/-/html-escaper-2.0.2.tgz#dfd60027da36a36dfcbe236262c00a5822681453"
@@ -2660,11 +2640,6 @@ human-signals@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-2.1.0.tgz#dc91fcba42e4d06e4abaed33b3e7a3c02f514ea0"
   integrity sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==
-
-i18next-fs-backend@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/i18next-fs-backend/-/i18next-fs-backend-2.0.0.tgz#d4c6430254cbb0b4e3e05249c0f0cfeaabed65af"
-  integrity sha512-zlwzcoUKlveoRt/SxgeP8i/6p1rxwxZ+x0w4sfCTY1zgUlhhnoxBSRX3GjVIsDJm5mky8Hpr//UX93UIknK7yQ==
 
 ignore@^5.2.0:
   version "5.2.0"
@@ -3594,17 +3569,6 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==
 
-next-i18next@^13.0.0:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/next-i18next/-/next-i18next-13.0.0.tgz#3a0253d0df27cb305fd5bedab0da46785dd5aa21"
-  integrity sha512-XiODAmMdueAIETQKIRPvYEZ5ghLOlzHb6PI4/WzwYkKdC/5q6UROzwIRw7aj3VWRB3xwnuuzEVI9NAjMfXyrkQ==
-  dependencies:
-    "@babel/runtime" "^7.18.9"
-    "@types/hoist-non-react-statics" "^3.3.1"
-    core-js "^3"
-    hoist-non-react-statics "^3.3.2"
-    i18next-fs-backend "^2.0.0"
-
 next@^13.0.5:
   version "13.0.5"
   resolved "https://registry.yarnpkg.com/next/-/next-13.0.5.tgz#cddfd6804f84a21721da370e4425980876670173"
@@ -4044,7 +4008,7 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
-react-is@^16.13.1, react-is@^16.7.0:
+react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
@@ -4418,6 +4382,11 @@ synckit@^0.8.4:
   dependencies:
     "@pkgr/utils" "^2.3.1"
     tslib "^2.4.0"
+
+tailwind-scrollbar@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/tailwind-scrollbar/-/tailwind-scrollbar-2.0.1.tgz#f08721173d513f1406a44601640b79726e3f9728"
+  integrity sha512-OcR7qHBbux4k+k6bWqnEQFYFooLK/F4dhkBz6nvswIoaA9ancZ5h20e0tyV7ifSWLDCUBtpG+1NHRA8HMRH/wg==
 
 tailwindcss@^3.2.4:
   version "3.2.4"
