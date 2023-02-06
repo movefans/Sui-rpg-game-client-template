@@ -119,7 +119,7 @@ const MonsterDetail = () =>{
                         {({ open }) => (
                             <>
                                 <Disclosure.Button className="flex w-full items-center rounded-2xl  bg-white p-4 text-left  font-medium text-black   border-gray-200">
-                                    <div >
+                                    <div>
                                         <ChevronUpIcon
                                             className={`${
                                                 open ? '' : 'rotate-180 transform '
